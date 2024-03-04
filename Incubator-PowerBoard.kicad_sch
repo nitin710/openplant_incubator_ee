@@ -1391,6 +1391,11 @@
     (effects (font (size 0.75 0.75)) (justify left bottom))
     (uuid e1e786bb-b86b-4a68-b5dd-cc17faf73bc3)
   )
+  (text "ToDO:\n1. Add 24 pin ATX connector\n2. Add provision for beakout board for display and input controls\n  - Needs 3v3 from ATX going to the display\n3. find switches"
+    (at 120.015 26.035 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e60c53dd-83e0-4107-9b29-7e0b6323038b)
+  )
   (text "SET_LIGHT_DOWN" (at 50.8 83.185 0)
     (effects (font (size 0.75 0.75)) (justify left bottom))
     (uuid e71cbbbb-c2b5-45a7-892a-c5e273e6a251)
