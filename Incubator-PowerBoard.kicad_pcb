@@ -539,7 +539,7 @@
 			)
 		)
 		(property "Value" "DMG6402LVT-7"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "e27ae196-d85d-4f3a-a9cf-d9c1814d2b41")
 			(effects
@@ -759,7 +759,7 @@
 			(uuid "bfb94d0f-3beb-4bc3-a0ce-e7517b34951c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1bd8aa52-137a-4910-b8c7-baf2d3f3d253")
 			(effects
@@ -848,7 +848,7 @@
 		(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
-			(at 0 -2.4 270)
+			(at 0 -2.4 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d3d96465-9280-41c7-98b6-cc6b5f1fd5cd")
@@ -860,7 +860,7 @@
 			)
 		)
 		(property "Value" "OUT_FAN_2"
-			(at 0 2.4 270)
+			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(uuid "9f3ac8e0-f762-4782-9db9-a86c9362ebba")
 			(effects
@@ -1080,7 +1080,7 @@
 			(uuid "3c251087-7531-4c30-bf80-e6e5c06039a3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "5bb4b4a2-ded1-4df7-91bc-89c58739234a")
 			(effects
@@ -1517,7 +1517,7 @@
 			(uuid "29d8984f-c72c-4378-92f6-e68302111c25")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 270)
+			(at 0 3.81 -90)
 			(layer "F.Fab")
 			(uuid "65ff67ed-b6ba-468d-b00d-787d4cadefb4")
 			(effects
@@ -2036,7 +2036,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J4"
-			(at 0 -2.33 270)
+			(at 0 -2.33 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "fceadc67-c12c-463f-a6db-95afd426711c")
@@ -2048,7 +2048,7 @@
 			)
 		)
 		(property "Value" "OUT_FAN_2"
-			(at 0 9.95 270)
+			(at 0 9.95 -90)
 			(layer "F.Fab")
 			(uuid "b4c17336-00fa-4cf6-918a-2956fdd44b50")
 			(effects
@@ -2276,7 +2276,7 @@
 			(uuid "a1997e5e-08bc-41d2-beec-1aa3b5947b58")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "0a9a29e2-8f5f-49a7-aeba-729c61e2e5e0")
 			(effects
@@ -4368,15 +4368,15 @@
 			(pintype "passive")
 			(uuid "0ff437c8-3a40-4635-a3c4-adee5d3a037a")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mini-Fit_Jr_5569-24A2_2x12_P4.20mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3d/ATX_Connector_24pi_90deg.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 48.768 0.381 9.525)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 180)
 			)
 		)
 	)
@@ -4387,7 +4387,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J5"
-			(at 0 -2.33 270)
+			(at 0 -2.33 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b3581daa-a2fe-40d8-91b8-4296dfacf5b1")
@@ -4399,7 +4399,7 @@
 			)
 		)
 		(property "Value" "IN_FAN_1"
-			(at 0 9.95 270)
+			(at 0 9.95 -90)
 			(layer "F.Fab")
 			(uuid "28096d91-b08e-42f1-9695-3fe4fd80fa87")
 			(effects
@@ -4627,7 +4627,7 @@
 			(uuid "3a4baa49-3be6-4b6d-b9b7-61b0c9c1e074")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "5618be29-0265-4e3d-8731-a370d311146c")
 			(effects
@@ -5951,7 +5951,7 @@
 		(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
-			(at 0 -2.4 270)
+			(at 0 -2.4 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e5eda961-2180-4d56-ad92-e2ebfef8adc3")
@@ -5963,7 +5963,7 @@
 			)
 		)
 		(property "Value" "OUT_FAN_1"
-			(at 0 2.4 270)
+			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ca7c4d99-c53e-49cf-87c4-5272c01506e6")
@@ -6184,7 +6184,7 @@
 			(uuid "2b8d4043-54f9-4511-a425-1ba1d9f8c0e1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "3cc6b915-50b8-4702-bce0-2c00c33ac34b")
 			(effects
@@ -6273,7 +6273,7 @@
 		(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q4"
-			(at 0 -2.4 270)
+			(at 0 -2.4 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "cf9f9995-33a3-4b8c-9363-f693088a333a")
@@ -6285,7 +6285,7 @@
 			)
 		)
 		(property "Value" "PELTIER_1"
-			(at 0 2.4 270)
+			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(uuid "e822c9ce-50b4-42fa-b587-6e3e41efdc24")
 			(effects
@@ -6505,7 +6505,7 @@
 			(uuid "b3e9be0e-68cc-4df5-8626-35fcff583bfc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "77a76a09-cf75-4d00-9238-b2c7daf64094")
 			(effects
@@ -6951,7 +6951,7 @@
 		(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q5"
-			(at 0 -2.4 270)
+			(at 0 -2.4 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "adbaf449-3957-4edc-a8e5-37edc077d35a")
@@ -6963,7 +6963,7 @@
 			)
 		)
 		(property "Value" "PELTIER_2"
-			(at 0 2.4 270)
+			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(uuid "6d2528af-cd9f-4580-93c1-35e6264c5d84")
 			(effects
@@ -7183,7 +7183,7 @@
 			(uuid "292a43ad-e966-4dca-b4bf-e71243db7fc8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "15a1bb0b-d469-41a3-a200-d3e3f2597a80")
 			(effects
@@ -7380,7 +7380,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J12"
-			(at 0 -2.33 270)
+			(at 0 -2.33 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "af305738-6302-45f2-b60b-f7ebb121ce19")
@@ -7392,7 +7392,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 0 4.87 270)
+			(at 0 4.87 -90)
 			(layer "F.Fab")
 			(uuid "746800cf-aeda-417a-a705-077744aa2df9")
 			(effects
@@ -7620,7 +7620,7 @@
 			(uuid "813165fe-0e3c-4f41-8dc4-cc9cf577af97")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 360)
+			(at 0 1.27 0)
 			(layer "F.Fab")
 			(uuid "4a0d3559-428a-414c-865b-99c0eac7c4e1")
 			(effects
@@ -7962,7 +7962,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J3"
-			(at 0 -2.33 270)
+			(at 0 -2.33 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "fe4ca995-5f86-45cf-b126-ab4174eec6d5")
@@ -7974,7 +7974,7 @@
 			)
 		)
 		(property "Value" "OUT_FAN_1"
-			(at 0 9.95 270)
+			(at 0 9.95 -90)
 			(layer "F.Fab")
 			(uuid "1865000f-d0b9-4223-8ae7-b00b71bb280b")
 			(effects
@@ -8202,7 +8202,7 @@
 			(uuid "e7cce1b4-f10f-4815-8b40-d3169390b916")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "3d65925d-e58d-4525-be43-cc954f441748")
 			(effects
@@ -8275,7 +8275,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J6"
-			(at 0 -2.33 270)
+			(at 0 -2.33 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "db68005c-aab1-4c2b-ad2c-80943d60c344")
@@ -8287,7 +8287,7 @@
 			)
 		)
 		(property "Value" "IN_FAN_2"
-			(at 0 9.95 270)
+			(at 0 9.95 -90)
 			(layer "F.Fab")
 			(uuid "d2e4f3c8-662a-40cb-8eda-d4ac2234bbf8")
 			(effects
@@ -8515,7 +8515,7 @@
 			(uuid "354a0560-615a-4542-bdf6-53dd935a595c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "78119958-7657-4e91-9541-6d81145ad776")
 			(effects
@@ -18294,7 +18294,7 @@
 			(xy 165.1 58.42) (xy 165.1 38.1)
 		)
 		(height 10.16)
-		(gr_text "20.3200 mm"
+		(gr_text "800.0000 mils"
 			(at 174.11 48.26 90)
 			(layer "Dwgs.User")
 			(uuid "7b338a9d-b2ac-4553-8339-b5016c5d9db3")
@@ -18328,7 +18328,7 @@
 		)
 		(height 2.54)
 		(orientation 1)
-		(gr_text "60.9600 mm"
+		(gr_text "2400.0000 mils"
 			(at 207.38 53.34 90)
 			(layer "Dwgs.User")
 			(uuid "9813f3c9-69f8-49fb-a6fa-97aadea9751c")
@@ -18362,7 +18362,7 @@
 		)
 		(height -2.54)
 		(orientation 0)
-		(gr_text "96.5200 mm"
+		(gr_text "3800.0000 mils"
 			(at 157.48 19.42 0)
 			(layer "Dwgs.User")
 			(uuid "b609bf5b-50fd-4520-9e8a-beb089a79f1b")
