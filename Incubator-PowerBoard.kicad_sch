@@ -14360,7 +14360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "RMCF0603JT10K0CT-ND"
+		(property "Digikey_Part_Number" "RMCF0603JT10K0CT-ND"
 			(at 207.01 54.61 0)
 			(effects
 				(font
@@ -15105,7 +15105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "RMCF0603JT10K0CT-ND"
+		(property "Digikey_Part_Number" "RMCF0603JT10K0CT-ND"
 			(at 173.99 129.54 0)
 			(effects
 				(font
@@ -16239,7 +16239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "RMCF0603JT10K0CT-ND"
+		(property "Digikey_Part_Number" "RMCF0603JT10K0CT-ND"
 			(at 175.26 55.88 0)
 			(effects
 				(font
